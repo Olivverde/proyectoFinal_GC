@@ -127,7 +127,7 @@ glVertexAttribPointer(1,3,GL_FLOAT,GL_FALSE,24,ctypes.c_void_p(12))
 glEnableVertexAttribArray(1)
 
 glEnableVertexAttribArray(2)
-glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 4 * 6, ctypes.c_void_p(24))
+glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 24, ctypes.c_void_p(24))
 
 #-----------ENDS--INITIAL--CONFIGS------------------------------------------------------------
 def render(xR, yR, zR, currentSdr):
